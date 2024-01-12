@@ -1,5 +1,8 @@
 /.idea
 /.venv
+/bin
+/lib
+pyvenv.cfg
 abalone.csv
 abalone_cl.csv
 abalone_perfomance.csv
