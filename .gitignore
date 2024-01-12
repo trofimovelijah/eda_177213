@@ -1,5 +1,5 @@
-/.idea
 /.venv
+/.idea
 /bin
 /lib
 pyvenv.cfg
