@@ -2,6 +2,7 @@
 /.idea
 /bin
 /lib
+/app/explainer.joblib
 pyvenv.cfg
 abalone.csv
 abalone_cl.csv
