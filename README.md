@@ -19,8 +19,10 @@
     -    app/dashboard.py содержит генерацию дашборда
 -    дашборд обернут в докер-контейнер:
 
-	-    сборка образа ```docker build -t explainerdashboard .```
-	-    запуск контейнера ```docker run -p 9050:9050 explainerdashboard```
+    -    сборка образа:
+        docker build -t explainerdashboard .
+    -    запуск контейнера:
+        docker run -p 9050:9050 explainerdashboard
 -    контейнер поднимается одной командой в терминале:
 
 ```docker run -d --rm -p 8040:9050 --name dash_abalone trofimovelijah/explainerdashboard:latest```
